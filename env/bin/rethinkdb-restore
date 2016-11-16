@@ -1,0 +1,10 @@
+#!/home/fajar/Documents/OpenSource/python/temanchat/env/bin/python3.5
+# EASY-INSTALL-ENTRY-SCRIPT: 'rethinkdb==2.3.0.post6','console_scripts','rethinkdb-restore'
+__requires__ = 'rethinkdb==2.3.0.post6'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('rethinkdb==2.3.0.post6', 'console_scripts', 'rethinkdb-restore')()
+    )
